@@ -1,67 +1,104 @@
-ML-Models-from-Scratch
-📖 Description
-This repository contains various machine learning models implemented from scratch using Python and Jupyter Notebook. The goal of this project is to provide a clear and concise implementation of popular ML algorithms, making them easier to understand for beginners.
+# ML-Models-from-Scratch
 
-🤖 Models Implemented
-Currently, the following models are available in the repository:
+---
 
-Linear Regression: A simple yet powerful model for predicting a continuous-valued output.
+## 📖 Description
 
-Lasso Regression: A type of linear regression that uses L1 regularization to prevent overfitting.
+This repository contains various machine learning models implemented from scratch using Python. The primary goal is to gain a deep, fundamental understanding of how each algorithm works by building it from the ground up, relying only on libraries like NumPy for numerical computations.
 
-Logistic Regression: A popular classification algorithm used to predict a binary outcome.
+This project is for educational purposes and is a great resource for anyone looking to look "under the hood" of common machine learning algorithms.
 
-Support Vector Machine (SVM) Classifier: A powerful and versatile supervised machine learning algorithm for classification.
+---
 
-🚀 Getting Started
+## 🤖 Models Implemented
+
+The repository is organized by model, with each folder containing a notebook or script for that specific algorithm:
+
+* **[Linear Regression](https://github.com/adityanegiuk99/ML-Models-from-scratch/tree/main/Linear%20Regression)**
+    * Implements simple linear regression and gradient descent to find the optimal line of best fit.
+
+* **[Lasso Regression](https://github.com/adityanegiuk99/ML-Models-from-scratch/tree/main/Lasso%20Regression)**
+    * An implementation of Linear Regression that includes L1 regularization (Lasso) to prevent overfitting and perform feature selection.
+
+* **[Logistic Regression](https://github.com/adityanegiuk99/ML-Models-from-scratch/tree/main/Logistic%20Regression)**
+    * A from-scratch implementation of the popular classification algorithm, using the sigmoid function and gradient descent to find the decision boundary.
+
+* **[SVM Classifier](https://github.com/adityanegiuk99/ML-Models-from-scratch/tree/main/SVM%20Classifier)**
+    * Implements the core concepts of a Support Vector Machine for binary classification.
+
+---
+
+## 🚀 Getting Started
+
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
-You will need to have the following installed on your system:
+### Prerequisites
 
-Python 3.x
+You will need Python 3.x and the following libraries:
+* NumPy
+* Pandas
+* Matplotlib
+* Jupyter Notebook (for running the `.ipynb` files)
 
-Jupyter Notebook
+### Installation
 
-Installation
-Clone the repo
+1.  Clone the repository to your local machine:
+    ```sh
+    git clone [https://github.com/adityanegiuk99/ML-Models-from-scratch.git](https://github.com/adityanegiuk99/ML-Models-from-scratch.git)
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd ML-Models-from-scratch
+    ```
+3.  (Optional but recommended) Create a virtual environment:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+4.  Install the required packages:
+    ```sh
+    pip install numpy pandas matplotlib jupyter
+    ```
 
-Bash
+---
 
-git clone https://github.com/adityanegiuk99/ML-Models-from-scratch.git
-Navigate to the project directory
+## Usage
 
-Bash
+Each folder contains a standalone implementation of a model. You can explore each one individually.
 
-cd ML-Models-from-scratch
-Usage
-Each model is implemented in its own Jupyter Notebook. To see the implementation of a specific model, navigate to the corresponding folder and open the .ipynb file.
+For example, to run the Linear Regression model:
 
-For example, to view the Linear Regression model:
+1.  Navigate to the `Linear Regression` directory.
+2.  Start Jupyter Notebook:
+    ```sh
+    jupyter notebook
+    ```
+3.  Open the `Linear Regression.ipynb` file from the Jupyter interface in your browser and run the cells.
 
-Go to the Linear Regression directory.
+---
 
-Open the Linear Regression.ipynb file in Jupyter Notebook.
+## 🤝 Contributing
 
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-Don't forget to give the project a star! Thanks again!
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-Fork the Project
+---
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+## 📜 License
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+Distributed under the **GNU General Public License v3.0**. See `LICENSE` for more information.
 
-Push to the Branch (git push origin feature/AmazingFeature)
+---
 
-Open a Pull Request
+## 📬 Contact
 
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+Aditya Negi - [GitHub](https://github.com/adityanegiuk99)
 
-🙏 Acknowledgments
-Aditya Negi
+Project Link: [https://github.com/adityanegiuk99/ML-Models-from-scratch](https://github.com/adityanegiuk99/ML-Models-from-scratch)
